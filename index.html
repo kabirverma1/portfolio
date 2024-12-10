@@ -3,59 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Bridging Construction & Electrical Engineering</title>
+  <title>Portfolio - Bridging Construction & Engineering</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
-    <h1>Bridging the Gap: Construction & Electrical Engineering</h1>
-    <p>Hands-on experience meets technical expertise. Explore my journey and projects.</p>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Bridging Construction & Engineering</h1>
+      <p>Where hands-on experience meets technical expertise.</p>
+    </div>
   </header>
 
-  <section class="about-me">
+  <section id="about" class="about-me">
     <h2>About Me</h2>
     <p>
-      With eight years of experience as a handyman and general contractor, I’ve built a strong foundation in
-      problem-solving, precision, and project management. Now, as an aspiring electrical engineer, I am combining
-      my practical expertise with technical knowledge to create innovative solutions.
+      With eight years of experience as a handyman and contractor, I bring practical skills to the table.
+      Now, I'm pursuing a degree in electrical engineering to combine my construction background with
+      innovative problem-solving.
     </p>
   </section>
 
-  <section class="projects">
+  <section id="projects" class="projects">
     <h2>Projects</h2>
     <div class="project-cards">
       <div class="card">
         <img src="images/construction.jpg" alt="Basement Renovation">
         <h3>Basement Renovation</h3>
-        <p>Led a full renovation project, including framing, tiling, and electrical pre-wiring.</p>
+        <p>Complete remodel with framing, tiling, and electrical pre-wiring.</p>
       </div>
       <div class="card">
         <img src="images/pcb.jpg" alt="PCB Design">
-        <h3>PCB Design for IoT Devices</h3>
-        <p>Designed and fabricated a custom PCB for a low-power sensor module.</p>
+        <h3>PCB Design</h3>
+        <p>Developed a low-power PCB for IoT applications.</p>
       </div>
       <div class="card">
-        <img src="images/hybrid.jpg" alt="Smart Home Integration">
-        <h3>Smart Home Integration</h3>
-        <p>Installed and programmed a smart home system, combining practical installation skills with embedded programming.</p>
+        <img src="images/hybrid.jpg" alt="Smart Home">
+        <h3>Smart Home Installation</h3>
+        <p>Integrated smart home systems with practical installation and programming.</p>
       </div>
     </div>
   </section>
 
-  <section class="experience">
+  <section id="experience" class="experience">
     <h2>Experience</h2>
     <ul>
-      <li><strong>Handyman & General Contractor (8 Years):</strong> Managed diverse residential and commercial construction projects, specializing in renovations, electrical pre-wiring, and finish carpentry.</li>
-      <li><strong>Electrical Engineering Student:</strong> Gaining theoretical knowledge in circuit design, embedded systems, and power electronics to complement my hands-on skills.</li>
+      <li><strong>Handyman & Contractor:</strong> 8+ years in residential and commercial projects, specializing in renovations.</li>
+      <li><strong>Engineering Student:</strong> Focus on circuit design, embedded systems, and power electronics.</li>
     </ul>
   </section>
 
-  <footer class="footer">
-    <p>&copy; 2024 Your Name. All Rights Reserved.</p>
-    <div class="footer-links">
-      <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a> |
-      <a href="https://github.com/yourusername">GitHub</a>
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Let's connect! Reach out via LinkedIn or GitHub:</p>
+    <div class="contact-links">
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
     </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Your Name</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
